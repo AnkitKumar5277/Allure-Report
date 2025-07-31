@@ -1,0 +1,16 @@
+**Allure Report (in Python + PyTest)**
+
+1. **To Install the Allure in Project** –
+   a. `pip install allure-pytest`
+
+2. **We need to add this while running the pytest testcase**
+   a. `--alluredir=allure_result`
+
+3. **How to see the HTML report?**
+   a. **Install Allure Commandline**
+       i. Node JS – [https://nodejs.org/en/download/prebuilt-installer](https://nodejs.org/en/download/prebuilt-installer)
+       ii. cmd → `node --version`
+       iii. cmd → `npm -g i allure-commandline`
+
+4. `allure serve allure-results`
+
